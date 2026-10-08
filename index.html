@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pong Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="game-shell">
+      <header class="hud">
+        <div class="score-box">
+          <span class="label">Player</span>
+          <span id="leftScore">0</span>
+        </div>
+        <button id="startBtn" class="action-btn">Start</button>
+        <button id="resetBtn" class="action-btn secondary">Reset</button>
+        <div class="score-box">
+          <span class="label">CPU</span>
+          <span id="rightScore">0</span>
+        </div>
+      </header>
+
+      <canvas id="gameCanvas" width="900" height="520"></canvas>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
